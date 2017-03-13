@@ -39,7 +39,7 @@ public class FileUtil {
      * @param newExtension
      * @return 
      */
-    public static boolean renameFileExtension(String source, String newExtension) throws IOException {
+    public static boolean renameFileExtension(String source, String newExtension) {
         String target;
         String currentExtension = getFileExtension(source);
 
